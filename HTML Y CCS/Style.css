@@ -1,0 +1,99 @@
+header {
+    /*Estes es el estilo para header*/
+    text-align: center;
+    width: 1000px;
+    background-color: #f0f0f0;
+    padding: 20px;
+    padding-left: 320px;
+    
+}
+
+body {
+    background-color: #3e91b4;
+
+}
+/*Este es el estilo para mi barra lateral*/
+    .sidebar {
+        position: fixed; 
+        top: 0; 
+        left: 0; 
+        height: 100vh; 
+        width: 300px; 
+        background-color: #000; 
+        color: #fff; 
+        padding: 20px; 
+        font-family: Georgia, serif; 
+        display: flex;
+        flex-direction: column; 
+        justify-content: flex-start;
+        box-sizing: border-box; 
+        
+    }
+
+    .sidebar a {
+        color: #fff; 
+        text-decoration: none; 
+        display: block; 
+        padding: 10px 0;
+    }
+
+    .sidebar a:hover {
+        background-color: #444; 
+    }
+    
+    
+/*Este es el estilo para el video*/
+    .video-container {
+        display: flex;
+        justify-content: right;
+        align-items: center;
+        padding: 30px;
+        padding-right: 130px;
+        padding-top: 90px;
+    }
+
+    
+    .video-container iframe {
+        width: 60%;
+      
+        height: 400px;
+        
+        max-width: 100%;
+
+    }
+/*Aqui mi footer estilo y las redes sociales*/
+    .footer {
+        width: 100%;
+        background-color: #333; 
+        color: white; 
+        text-align: center; 
+        padding: 0px 0; 
+        position: fixed; 
+        bottom: 0; 
+        left: 0; 
+        display: flex;
+        justify-content: center;
+    }
+  .social-media {
+        display: flex;
+        justify-content: space-around; 
+        margin-top: auto; 
+        padding-top: 20px;
+        overflow: visible;
+    }
+
+
+    .social-media img {
+        width: 35px; 
+        right: 520px;
+        height: 30px; 
+        cursor: pointer; 
+        display: block;
+        z-index: 20; 
+        position: relative; 
+
+    }
+    .social-media img:hover {
+        opacity: 0.8;
+
+    }
